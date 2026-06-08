@@ -1,6 +1,4 @@
-/* ===========================
-   FONT FACE
-=========================== */
+
 @font-face {
   font-family: 'HankenGrotesk';
   src: url('./assets/fonts/HankenGrotesk-VariableFont_wght.ttf') format('truetype');
@@ -8,9 +6,7 @@
   font-style: normal;
 }
 
-/* ===========================
-   CSS RESET & VARIABLES
-=========================== */
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
@@ -43,9 +39,7 @@
   --dark-gray-blue: hsl(224, 30%, 27%);
 }
 
-/* ===========================
-   BASE
-=========================== */
+
 body {
   font-family: 'HankenGrotesk', sans-serif;
   font-size: 18px;
@@ -58,9 +52,7 @@ body {
   justify-content: center;
 }
 
-/* ===========================
-   CARD WRAPPER
-=========================== */
+
 .card {
   display: flex;
   border-radius: 32px;
@@ -71,9 +63,7 @@ body {
   background-color: var(--white);
 }
 
-/* ===========================
-   LEFT PANEL — RESULT
-=========================== */
+
 .result {
   flex: 1;
   background: linear-gradient(var(--grad-bg-top), var(--grad-bg-bottom));
@@ -137,9 +127,8 @@ body {
   line-height: 1.6;
 }
 
-/* ===========================
-   RIGHT PANEL — SUMMARY
-=========================== */
+
+
 .summary {
   flex: 1;
   padding: 38px 40px 46px;
@@ -206,9 +195,7 @@ body {
   color: hsla(224, 30%, 27%, 0.5);
 }
 
-/* ===========================
-   CONTINUE BUTTON
-=========================== */
+/* Continue button */
 .btn-continue {
   display: block;
   width: 100%;
@@ -240,9 +227,7 @@ body {
   outline: none;
 }
 
-/* ===========================
-   ATTRIBUTION
-=========================== */
+
 .attribution {
   font-size: 11px;
   text-align: center;
@@ -254,9 +239,7 @@ body {
   color: hsl(228, 45%, 44%);
 }
 
-/* ===========================
-   RESPONSIVE — MOBILE
-=========================== */
+
 @media (max-width: 600px) {
   body {
     justify-content: flex-start;
